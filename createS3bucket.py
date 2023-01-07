@@ -9,7 +9,7 @@ myS3.create_bucket(Bucket='my-bucket00108')
 # create multiple s3 bucket
 # for i in range(5):
 #     myS3.create_bucket(Bucket="my-bucket000%s" % i)
-
+#     myS3.create_bucket(Bucket="my-bucket000" + i)
 # list s3 bucket
 myBuckets = myS3.list_buckets()
 
